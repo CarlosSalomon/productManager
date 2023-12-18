@@ -42,7 +42,7 @@ class ProductManager {
 
     if (okProduct) {
       console.log("Producto encontrado:");
-      console.dir(okProduct);
+      console.log(okProduct);
     } else {
       console.log(`Producto con el id ${id} no existe`);
     }
